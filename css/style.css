@@ -258,4 +258,15 @@ footer {
   footer {
     position: static;
   }
+
+  header div > img {
+    display: none;
+  }
+
+  #nosaltres article {
+    display: table-column;
+    max-width: 100%;
+  }
+
+  
 }
