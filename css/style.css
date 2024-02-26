@@ -255,18 +255,22 @@ footer {
     font-size: 12vw;
   }
 
-  footer {
-    position: static;
-  }
-
   header div > img {
     display: none;
   }
 
-  #nosaltres article {
-    display: table-column;
+  #nosaltres div {
+    display: flex;
+    flex-direction: column;
     max-width: 100%;
   }
 
-  
+  footer {
+    position: static;
+  }
+
+  footer > div > p {
+    display: none;
+  }
+
 }
